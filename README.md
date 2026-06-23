@@ -25,6 +25,61 @@ The original system was deployed and maintained on a Linux VPS with separate pro
 - Production and laboratory environment separation
 - Backup-oriented deployment workflow
 - Nginx reverse proxy and SSL setup
+## Screenshots
+
+### Login Page
+
+![Login Page](screenshots/01-login-page.png)
+
+Discord OAuth authentication with multilingual interface support.
+
+### Dashboard
+
+![Dashboard](screenshots/02-dashboard.png)
+
+Activity overview with attendance analytics, filters and performance indicators.
+
+### Breakdown Analytics
+
+![Breakdown](screenshots/03-breakdown.png)
+
+Detailed attendance statistics by activity type and category.
+
+### Player Details
+
+![Player Details](screenshots/04-player-details.png)
+
+Individual participant activity history and attendance metrics.
+
+### Access Management
+
+![Access Management](screenshots/05-access-management.png)
+
+Role-based access control and Discord user management.
+
+### Security & Sessions
+
+![Security](screenshots/06-security-sessions.png)
+
+Session monitoring and administrative security controls.
+
+### Create Activity
+
+![Create Activity](screenshots/07-create-activity.png)
+
+Activity creation form with participant and screenshot management.
+
+### Events History
+
+![Events](screenshots/08-events-list.png)
+
+Historical event tracking and audit information.
+
+### Archive Management
+
+![Archive](screenshots/09-archive-management.png)
+
+Season reset and archive management functionality.
 
 ## Tech Stack
 
