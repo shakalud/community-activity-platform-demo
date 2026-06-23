@@ -4,23 +4,27 @@ FastAPI-based web platform demo for activity tracking, attendance analytics, use
 
 ## Overview
 
-This project demonstrates a web application architecture for managing community activity, user roles, event history and operational statistics.
+This project demonstrates the architecture and workflow of a real production web platform built for community activity tracking, statistics, access management and operational administration.
 
-The original system was designed and deployed as a real production platform with separate production and laboratory environments. This repository is a portfolio/demo version without private data, tokens, credentials or production configuration.
+The original system was deployed and maintained on a Linux VPS with separate production and laboratory environments. This repository is a portfolio/demo version and does not include private data, credentials, database dumps, tokens or production configuration.
 
 ## Features
 
-- FastAPI backend
+- FastAPI backend architecture
 - SQLite database
-- User authentication workflow
+- Jinja2 HTML templates
+- Discord OAuth authentication
 - Role-based access control
+- Owner / Admin / Member permission model
 - Activity and attendance tracking
 - Event history
-- Audit logging
+- Player/member profiles
 - Image upload workflow
-- Admin/member permission separation
-- Production and lab environment concept
-- Backup-oriented deployment approach
+- Audit logging
+- Admin tools
+- Production and laboratory environment separation
+- Backup-oriented deployment workflow
+- Nginx reverse proxy and SSL setup
 
 ## Tech Stack
 
@@ -28,21 +32,41 @@ The original system was designed and deployed as a real production platform with
 - FastAPI
 - SQLite
 - Jinja2
-- OAuth2
+- Discord OAuth
 - Linux
 - Nginx
 - systemd
+- SSL/TLS
+
+## Architecture
+
+The platform was designed as a self-hosted FastAPI application running behind Nginx on a Linux VPS.
+
+The system used separate production and laboratory environments to safely test new features before deployment. Access control was implemented through Discord OAuth and internal role mapping.
 
 ## My Role
 
 I designed, developed, deployed and maintained the platform.
 
-My work included backend development, database design, access control logic, Linux VPS setup, Nginx reverse proxy configuration, SSL setup, backup automation, testing and production support.
+My work included:
+
+- Backend development
+- Database design
+- Access control implementation
+- Discord OAuth integration
+- UI workflow design
+- Linux VPS setup
+- Nginx reverse proxy configuration
+- SSL setup
+- Backup automation
+- Testing in laboratory environment
+- Production support and bug fixing
 
 ## Security Note
 
-This repository is a portfolio/demo version.  
-Private data, tokens, Discord IDs, database dumps, `.env` files and production configuration are not included.
+This repository is a portfolio/demo version.
+
+Private data, user IDs, Discord configuration, tokens, `.env` files, database dumps and production deployment files are not included.
 
 ## Status
 
