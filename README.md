@@ -29,57 +29,73 @@ The original system was deployed and maintained on a Linux VPS with separate pro
 
 ### Login Page
 
-![Login Page](screenshots/01-login-page.png)
-
 Discord OAuth authentication with multilingual interface support.
+
+![Login Page](screenshots/login-discord-oauth.png)
+
+---
 
 ### Dashboard
 
-![Dashboard](screenshots/02-dashboard.png)
-
 Activity overview with attendance analytics, filters and performance indicators.
+
+![Dashboard](screenshots/dashboard.png)
+
+---
 
 ### Breakdown Analytics
 
-![Breakdown](screenshots/03-breakdown.png)
-
 Detailed attendance statistics by activity type and category.
+
+![Breakdown](screenshots/breakdown.png)
+
+---
 
 ### Player Details
 
-![Player Details](screenshots/04-player-details.png)
-
 Individual participant activity history and attendance metrics.
+
+![Player Details](screenshots/player-details.png)
+
+---
 
 ### Access Management
 
-![Access Management](screenshots/05-access-management.png)
-
 Role-based access control and Discord user management.
+
+![Access Management](screenshots/access-management.png)
+
+---
 
 ### Security & Sessions
 
-![Security](screenshots/06-security-sessions.png)
-
 Session monitoring and administrative security controls.
+
+![Security Sessions](screenshots/security-sessions.png)
+
+---
 
 ### Create Activity
 
-![Create Activity](screenshots/07-create-activity.png)
-
 Activity creation form with participant and screenshot management.
+
+![Create Activity](screenshots/create-activity.png)
+
+---
 
 ### Events History
 
-![Events](screenshots/08-events-list.png)
-
 Historical event tracking and audit information.
+
+![Events List](screenshots/events-list.png)
+
+---
 
 ### Archive Management
 
-![Archive](screenshots/09-archive-management.png)
-
 Season reset and archive management functionality.
+
+![Archive Reset](screenshots/archive-reset.png)
 
 ## Tech Stack
 
